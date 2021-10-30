@@ -6,6 +6,7 @@
 body{
     font-family: Public Sans;
     background-color: #fafafa;
+    overflow-x: hidden;
 }
 
 .header{
