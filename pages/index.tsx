@@ -1,6 +1,13 @@
-const index = () =>{
+import SectionOne from "../components/SectionOne";
+import SectionTwo from "../components/SectionTwo";
+import SectionThree from "../components/SectionThree";
+const Home: React.FunctionComponent = () =>{
   return(
-    <h1>hello from next</h1>
+    <>
+      <SectionOne />
+      <SectionTwo />
+      <SectionThree />
+    </>
   )
 }
-export default index;
+export default Home;

@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    font-family: Public Sans;
+    background-color: #fafafa;
+}
+
+.header{
+    @apply bg-navbg grid justify-items-center grid-cols-3
+}
+
+.navbaritems{
+    @apply flex 
+}
+.btn{
+   @apply bg-gradient-to-r from-limegreen to-brightcyan rounded-full
+}
+
+.item{
+    @apply border-opacity-0 border-b-4 hover:border-limegreen py-8
+}
+
